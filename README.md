@@ -18,6 +18,19 @@ O programa solicita ao usuário que insira um número inteiro para calcular o fa
 3. Insira um número inteiro não negativo quando solicitado.
 4. O programa calculará e exibirá o fatorial desse número.
 
+## Como Contribuir
+
+Se desejar contribuir para o desenvolvimento deste jogo, siga estas etapas:
+
+1. Fork o repositório.
+2. Faça suas modificações e melhorias no código.
+3. Teste suas alterações para garantir que funcionem corretamente.
+4. Envie um pull request descrevendo as mudanças que você fez e suas razões para elas.
+
 ## Autor
 
-Este script foi desenvolvido por Ageu Felipe Nunes Moraes. Para dúvidas ou sugestões, entre em contato pelo e-mail [ageumoraes67@gmail.com](mailto:ageumoraes67@gmail.com).
+Este algorítimo foi desenvolvido por Ageu Felipe Nunes Moraes como parte de um projeto pessoal. Para dúvidas ou sugestões, entre em contato pelo e-mail [ageumoraes67@gmail.com](mailto:ageumoraes67@gmail.com).
+
+## Aviso Legal
+
+Este é um projeto de software desenvolvido por um indivíduo e não tem afiliação com outrem.
