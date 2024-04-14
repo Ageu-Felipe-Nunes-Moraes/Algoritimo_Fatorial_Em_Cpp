@@ -3,31 +3,31 @@
 
 #include <iostream>
 
-class CalculaFatorial{
+class Calcula_Fatorial{
 private:
     int fatorial;
     unsigned long long int resultado = 1;
 
 public:  
     
-    int getValor(){
+    int get_valor(){
         
         std::cout << "Digite um valor para descobrir o fatorial do mesmo: ";
         std::cin >> fatorial;
         return fatorial;
     }
 
-   void verificaCondicoes(){
+   void verifica_condicoes(){
         
 
         if (fatorial < 0){
             std::cout << "Valor negativo, portanto invalido." << std::endl;
         } else{
-            imprimeResultado();
+            imprime_resultado();
         }
     }
 
-    void imprimeResultado(){
+    void imprime_resultado(){
         
         for (int i = 1; i <= fatorial; i++){
             resultado *= i;
@@ -38,8 +38,8 @@ public:
 
 
 int main(){
-    CalculaFatorial calculoteste;
-    calculoteste.getValor();
-    calculoteste.verificaCondicoes();
+    Calcula_Fatorial calculo_teste;
+    calculo_teste.get_valor();
+    calculo_teste.verifica_condicoes();
     return 0;
 }
