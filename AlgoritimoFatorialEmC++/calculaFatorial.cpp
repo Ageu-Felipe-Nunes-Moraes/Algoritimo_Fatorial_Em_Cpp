@@ -3,7 +3,7 @@
 
 #include <iostream>
 
-class Calcula_Fatorial{
+class CalculaFatorial{
 private:
     int fatorial;
     unsigned long long int resultado = 1;
@@ -38,7 +38,7 @@ public:
 
 
 int main(){
-    Calcula_Fatorial calculo_teste;
+    CalculaFatorial calculo_teste;
     calculo_teste.get_valor();
     calculo_teste.verifica_condicoes();
     return 0;
