@@ -1,7 +1,7 @@
 
 # Calculadora de Fatorial em C++
 
-Este é um simples programa em C++ que calcula o fatorial de um número inteiro não negativo. Ele suporta resultados de até 64 bits.
+Este é um simples programa em C++ que calcula o fatorial de um número inteiro não negativo. Ele suporta resultados de até 64 bits de saída.
 
 ## Funcionamento
 
@@ -20,7 +20,7 @@ O programa solicita ao usuário que insira um número inteiro para calcular o fa
 
 ## Como Contribuir
 
-Se desejar contribuir para o desenvolvimento deste jogo, siga estas etapas:
+Se desejar contribuir para o desenvolvimento deste programa, siga estas etapas:
 
 1. Fork o repositório.
 2. Faça suas modificações e melhorias no código.
