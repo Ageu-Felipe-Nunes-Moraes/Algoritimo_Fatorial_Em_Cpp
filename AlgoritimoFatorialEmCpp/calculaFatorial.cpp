@@ -1,46 +1,46 @@
-//Código em c++
-//O resultado suportará tamanho de até 64 bits
+//Code in c++
+//The result supports up to 64 bits
 
-#include <iostream> // Biblioteca de entra e saída do c++
+#include <iostream> // C++ input and output module
 
-class CalculaFatorial{
+class FatorialCalculate{
 private:
-    int fatorial; // Vai receber o número dado pelo usuário
-    unsigned long long int resultado = 1; // Variável contadora que consegue armazenar resultados extensos
+    int factorial; // Will receive number entered by the user
+    unsigned long long int result = 1; // Counter that will store the result
 
 public:
     
-    int get_valor(){ // Captura o valor dado pelo usuário
+    int get_value(){ // to get value entered by the user
         
         std::cout << "Digite um valor para descobrir o fatorial do mesmo: ";
-        std::cin >> fatorial;
-        return fatorial;
+        std::cin >> factorial;
+        return factorial;
     }
 
-   void verifica_condicoes(){ // Verifica a condição necessária para ser considerado fatorial 
+   void checks_conditions(){ // Checks the necessary conditions to have a factorial
         
 
-        if (fatorial < 0){ // Se um valor negativo for inserido, vai aparecer essa mensagem
+        if (factorial < 0){ // If you enter negative value, it will show this message
             std::cout << "Valor negativo, portanto invalido." << std::endl;
         } else{
-            imprime_resultado(); // Se não, o código chama a implementação da lógica e resultado
+            print_result(); // Otherwise, the code will call the logic implementation and the result
         }
     }
 
-    void imprime_resultado(){ // Processa o valor inserido e entrega o resultado
-        // Enquanto i <= fatorial ele será múltiplicado com a variável "Resultado"
-        // EXEMPLO: 5! = 1*1 = 1*2 = 2*3 = 6*4 = 24 * 5 = 120
-        for (int i = 1; i <= fatorial; i++){
-            resultado *= i;
+    void print_result(){ // Processes entered value and delivers the result
+        // While i <= factorial, it will be multiplied by the "Result" variable
+        // EXEMPLE: 5! = 1*1 = 1*2 = 2*3 = 6*4 = 24 * 5 = 120
+        for (int i = 1; i <= factorial; i++){
+            result *= i;
         }
-        std:: cout << "O resultado de " << fatorial << " em fatorial e: " << resultado << std::endl; // Resultado final
+        std:: cout << "O resultado de " << factorial << " em fatorial e: " << result << std::endl; // Final result
     }
 };
 
 
 int main(){
-    CalculaFatorial calculo_teste; // Objeto 1
-    calculo_teste.get_valor(); // Capturando valor do usuário
-    calculo_teste.verifica_condicoes(); // Verificando se o valor inserido é válido
-    return 0; // Retornando 0 para o main, a fim de verificar se ocorreu tudo bem
+    FatorialCalculate calculator; // Object 1
+    calculator.get_value(); // To get user value
+    calculator.checks_conditions(); // Checks if the entered value is valid
+    return 0; // Returning 0 to main, to check if everything is ok
 }
